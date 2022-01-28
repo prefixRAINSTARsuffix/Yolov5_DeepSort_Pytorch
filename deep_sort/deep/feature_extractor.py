@@ -7,7 +7,7 @@ import logging
 import sys
 # so that init does not execute in the package
 sys.path.append('deep_sort/deep/reid')
-from .reid.torchreid import models
+import .reid.torchreid.models
 
 
 class Extractor(object):
